@@ -107,6 +107,7 @@ Properties:
 * `schematic` (`sch`) - Schematic ID.
 * `ownerType` (`oT`) - owner type. Possible values: `"c"` (Character), `"s"` (Stage).
 * `ownerId` (`oI`) - owner ID.
+* `color` (`c`) - default color for all parts.
 * `regions` (`r`) - an optional collection of `ItemRegion` objects:
   * `id` - SchematicRegion ID that should be painted.
   * `color` (`c`) - color ID. Can be a fixed color (by X11 name) or a character color code (`c0` to `c9`, `e0` or `e1`, `l0` or `l1`).
